@@ -1,7 +1,7 @@
 function findingBadData(aray){
-    /* 
-    here in this problem we have to find how many of the given array element is negetive number.
-    */
+    
+    // here in this problem we have to find how many of the given array element is negetive number.
+    
 
     if(Array.isArray(aray) != true){
         return "please enter a valid input";
@@ -17,8 +17,9 @@ function findingBadData(aray){
     }
 
     return badDataCount;
+
 }
 
-let ary =  [ 10,20,30,-50 ];
+let ary =  [ 10,20,30,0,-20,-30 ];
 let res  = findingBadData(ary);
 console.log(res);

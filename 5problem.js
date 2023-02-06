@@ -1,3 +1,4 @@
+
 function gemsToDiamond(number1, number2, number3){
 
     /* 
@@ -17,7 +18,7 @@ function gemsToDiamond(number1, number2, number3){
 
     let totallDiamond = (number1 * friendOneGemsPower) + (number2 * friendTwoGemsPower) + (number3 * friendThreeGemsPower);
 
-    if(totallDiamond > (1000 *2) ){
+    if(totallDiamond >= (1000 *2) ){
         return totallDiamond - 2000;
     }
     else{
@@ -26,6 +27,7 @@ function gemsToDiamond(number1, number2, number3){
 
 }
 
-let res  = gemsToDiamond(100, 5, 1);
+
+let res  = gemsToDiamond(1, 1, 1);
 console.log(res);
 

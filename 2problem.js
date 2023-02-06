@@ -1,6 +1,6 @@
 function evenOdd(message){
 
-    // Here in this function we are checking is the length of the message is even or odd.
+    // Here in this function we are checking is the length of the given message is even or odd.
 
     if(typeof message != "string"){
         return "please enter a valid input";
@@ -17,5 +17,6 @@ function evenOdd(message){
 
 }
 
-let res = evenOdd("emon");
+
+let res = evenOdd("emoni");
 console.log(res);
