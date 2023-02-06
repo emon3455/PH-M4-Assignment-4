@@ -17,6 +17,7 @@ function mindGame(number){
 
 
 
+
 function evenOdd(message){
 
     // Here in this function we are checking is the length of the given message is even or odd.
@@ -35,6 +36,7 @@ function evenOdd(message){
     }
 
 }
+
 
 
 function isLGSeven(number){
@@ -60,6 +62,8 @@ function isLGSeven(number){
 }
 
 
+
+
 function findingBadData(aray){
     
     // here in this problem we have to find how many of the given array element is negetive number.
@@ -81,4 +85,8 @@ function findingBadData(aray){
     return badDataCount;
 
 }
+
+
+
+
 
