@@ -42,7 +42,7 @@ function isLGSeven(number){
     /*  
     here we have to find the difference between the given number and 7.
     if the difference is less then 7 return the difference otherwise return the double of the given number
-     */
+    */
 
     if(typeof number != "number"){
         return "please enter a valid input";
@@ -58,3 +58,27 @@ function isLGSeven(number){
     }
 
 }
+
+
+function findingBadData(aray){
+    
+    // here in this problem we have to find how many of the given array element is negetive number.
+    
+
+    if(Array.isArray(aray) != true){
+        return "please enter a valid input";
+    }
+
+    let badDataCount = 0;
+    for(let i = 0; i<aray.length; i++){
+
+        if(aray[i] < 0){
+            badDataCount++;
+        }
+
+    }
+
+    return badDataCount;
+
+}
+
